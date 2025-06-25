@@ -56,7 +56,7 @@ This repository provides the implementation of [Bi-Level Motion Imitation (BMI)]
 ### Finetune the robot policy and the decoder of SCAE
 
 ```
-python ./run_finetune.sh
+./run_finetune.sh
 ```
 
 - This command finetunes both the decoder of SCAE and the robot policy under the bi-level optimization framework.
